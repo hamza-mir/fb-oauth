@@ -472,6 +472,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@greatsumini/react-facebook-login@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "@greatsumini/react-facebook-login@npm:3.3.3"
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 2800806248ef5e9d74184173c8a2ff9701cbd157d7b3fd3588594d7aaf7eba3af019b3bf694ac9cf0c340c009df3f43bfd80f0886596c29ff97b404c7bcb10b7
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.13":
   version: 0.11.13
   resolution: "@humanwhocodes/config-array@npm:0.11.13"
@@ -1023,6 +1032,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:."
   dependencies:
+    "@greatsumini/react-facebook-login": ^3.3.3
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
     "@vitejs/plugin-react": ^4.0.3
@@ -1032,6 +1042,7 @@ __metadata:
     eslint-plugin-react-refresh: ^0.4.3
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-facebook-login: ^4.1.1
     vite: ^4.4.5
   languageName: unknown
   linkType: soft
@@ -2859,6 +2870,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-facebook-login@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "react-facebook-login@npm:4.1.1"
+  peerDependencies:
+    react: ^16.0.0
+  checksum: e644da474c6bf308e9a862c55397d61fd876a088345f3e9d234ec457eb3c205d1deb1263c5000005adfc1899bf6774cf761ee670c33bd6b0887f0dfd3bdff957
   languageName: node
   linkType: hard
 
