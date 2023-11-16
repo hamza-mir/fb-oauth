@@ -60,7 +60,7 @@ function App() {
           fields="name,email,picture"
           callback={responseFacebook}
           render={(renderProps) => (
-            <Button onClick={renderProps.onClick}>Sign in with Facebook</Button>
+            <button onClick={renderProps.onClick}>Sign in with Facebook</button>
           )}
         />
       </div>
