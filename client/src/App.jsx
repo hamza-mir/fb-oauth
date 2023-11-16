@@ -48,14 +48,16 @@ function App() {
       <div className="card">
         <FacebookLogin
           appId="1542339499918746"
-          onSuccess={(response) => {
-            console.log("Login Success!", response);
+          useRedirect
+          initParams={{
+            version: "v10.0",
+            xfbml: true,
           }}
-          onFail={(error) => {
-            console.log("Login Failed!", error);
+          dialogParams={{
+            response_type: "token",
           }}
-          onProfileSuccess={(response) => {
-            console.log("Get Profile Success!", response);
+          loginOptions={{
+            return_scopes: true,
           }}
         />
       </div>
