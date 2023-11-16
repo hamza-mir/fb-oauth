@@ -59,6 +59,9 @@ function App() {
           scope="pages_show_list,pages_messaging"
           fields="name,email,picture"
           callback={responseFacebook}
+          render={(renderProps) => (
+            <Button onClick={renderProps.onClick}>Sign in with Facebook</Button>
+          )}
         />
       </div>
       <p className="read-the-docs">
