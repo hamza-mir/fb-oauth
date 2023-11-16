@@ -2,7 +2,7 @@
   "name": "fb-oauth",
   "packageManager": "yarn@3.6.1",
   "scripts": {
-    "build": "cd client && yarn vite build"
+    "build": "cd client && yarn && yarn vite build"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
