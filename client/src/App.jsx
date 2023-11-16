@@ -4,8 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
 function App() {
-  const [count, setCount] = useState(0);
-
   const responseFacebook = async (response) => {
     if (response.status === "unknown") {
       window.location.reload(false);
@@ -46,14 +44,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
         <FacebookLogin
           appId={1542339499918746}
           scope="pages_show_list,pages_messaging"
