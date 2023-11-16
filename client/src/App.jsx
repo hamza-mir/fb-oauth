@@ -55,7 +55,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
         <FacebookLogin
-          appId={process.env.FACEBOOK_APP_ID}
+          appId={1542339499918746}
           onSuccess={(response) => {
             console.log("Login Success!", response);
           }}
