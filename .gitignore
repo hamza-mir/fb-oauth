@@ -10,3 +10,6 @@
 !.yarn/cache
 #.pnp.*
 .yarn
+.pnp.cjs
+.pnp.loader.mjs
+yarn.lock
